@@ -129,6 +129,10 @@ h1, h2{
     height: auto;
     white-space: nowrap;
     scrollbar-width: none;
+   
+}
+::-webkit-scrollbar {
+    display: none;
 }
 .target{
     width: 20rem;
@@ -142,14 +146,58 @@ h1, h2{
     color: gray;
     
 }
-
-
-
-
-/* text-align: center;
+/*habilidades*/
+.habilidades{
+    margin: 2rem;
+}
+.barr-progres{
+    padding: 1rem;
+    margin: 0% 2%;
+}
+.progress-container{
+    width: 100%;
+    height: 1.5em;
+    position: relative;
+    background-color: #f1f1f1;
+}
+.progress-container div{
+    display: block;
+    
+}
+h4{
+    text-align: left;
+}
+.progressbar{
+    background-color: #35B0BF;
+    height: 100%;
+    position: absolute;
+    line-height: inherit;
+}
+.round-large {
+    border-radius: 16px;
+}
+/* Mis Portafolios */
+.conteiner-portafolio{
+    display: flex;
+    text-align: center;
     overflow-y: hidden; 
-    overflow-x: auto;
+    overflow-x: scroll;
     width: auto;
     height: auto;
     white-space: nowrap;
-    scrollbar-width: none; */
+    scrollbar-width: none;
+    padding: 2rem;
+}
+.conteiner-portafolio img{
+    margin: 1rem;
+}
+
+/* contacto */
+
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: #282B3C;
+    padding: 2rem;
+}
