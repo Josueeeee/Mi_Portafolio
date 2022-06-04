@@ -14,11 +14,11 @@
                 <button onclick="togglemenu()"> <img src="./image/menu 1.svg" alt=""></button>
                 <ul id="nav" class="hidden">
                     <li><a href="#" >Home</a></li>
-                    <li><a href="#" >Servicios</a></li>
+                    <li><a href="#servicios" >Servicios</a></li>
                     <li><a href="#acerca-de-mi" >Acerca de mí</a></li>
-                    <li><a href="#" >Mis habilidades</a></li>
-                    <li><a href="#" >Mi protafolio</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#habilidades" >Mis habilidades</a></li>
+                    <li><a href="#portafolio" >Mi protafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul> 
             </nav>
     </header>
@@ -31,7 +31,7 @@
         <div class="home">
             <div class="presentacion">
                 <p>Soy </p>
-                <span class="color-font">Jeffrey</span>
+                <span class="color-font name">Jeffrey</span>
                 <p>Marketin y <br> diseñador UX/UI</p>
             </div>
             <div class="exp">
@@ -52,7 +52,7 @@
             <a href="#"><img src="./image/bi_spotify.png" alt=""></a>
         </div>
     </div>
-    <div class="seccion">
+    <div class="seccion" id="acerca-de-mi" >
         <div class="title-info">
             <h2>Acerca de mi</h2>
         </div>
@@ -64,9 +64,9 @@
            </div>
         </div>
     </div>
-    <div class="service">
-        <div class="title-info">
-            <h2>Servicios</h2>
+    <div class="service" id="servicios" >
+        <div class="title-info" >
+            <h2 >Servicios</h2>
         </div>
         <div class="conteiner-target-col  conteiner-target">
             <div class="target bg">
@@ -86,30 +86,45 @@
             </div>
         </div>
     </div>
-    <div class="habilidades">
+    <div class="habilidades" id="habilidades">
         <div class="title-info">
             <h2>Mis habilidad</h2>
         </div>  
         <div class="barr-progres">
             <h4>Desaing UI</h4>
-            <div class="progress-container round-large">
-                <div class="progressbar round-large" style="width:25%"></div>
-            </div> <br>
-            <h4>marketing</h4>
-            <div class="progress-container round-large">
-                <div class="progressbar round-large" style="width:80%"></div>
-            </div> <br>
-            <h4>HTML 5</h4>
-            <div class="progress-container round-large">
-                <div class="progressbar round-large" style="width:95%"></div>
+            <div class="conteriner-barr">
+                <div class="porcentaje-progress porcentaje1"> <p>60%</p></div>
+                <div class="progress-container round-large">
+                    <div class="progressbar round-large" style="width: 60%"></div>
+                </div> 
             </div>
+            
+            <h4>marketing</h4>
+            <div class="conteriner-barr">
+                <div class="porcentaje-progress  porcentaje2"> <p>80%</p></div>
+                <div class="progress-container round-large">
+                    <div class="progressbar round-large" style="width:80%"></div>
+                </div> 
+            </div>
+        
+            <h4>HTML 5</h4>
+                <div class="conteiner-barr">
+                    <div class="porcentaje-progress  porcentaje3"> <p>95%</p></div>
+                    <div class="progress-container round-large">
+                        <div class="progressbar round-large" style="width:95%"></div>
+                </div>
+            </div>
+            
             <h4>CSS</h4>
-            <div class="progress-container round-large">
-                <div class="progressbar round-large" style="width:60%"></div>
+            <div class="conteriner-barr">
+                <div class="porcentaje-progress  porcentaje4"> <p>60%</p></div>
+                <div class="progress-container round-large">
+                    <div class="progressbar round-large" style="width:60%"></div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="mi-portfolio">
+    <div class="mi-portfolio" id="portafolio">
         <div class="title-info">
             <h2>Mis Portfolio</h2>
         </div>  
@@ -120,14 +135,22 @@
             <img src="./image/portafolio4.jpg" alt="port4">
         </div>
     </div>
-    <div class="container-contacto">
+    <div class="container-contacto" id="contacto">
         <div class="title-info">
             <h2>Contacto</h2>
         </div>
-        <div class="target bg">
+        <div class="target-c bg phone">
+            <img src="./image/phone 3.svg" alt="telefono">
             <h3>telefono</h3>
             <p>+(504)3270-4277</p>
         </div>  
+    </div>
+    <div class="conteiner-email">
+        <div class="target-c bg email">
+            <img src="./image/mail 3.svg" alt="email">
+            <h3>Email</h3>
+            <p>jeffreycap12@gmail.com</p>
+        </div>
     </div>
     <footer>
         <h1>Hecho con 🤍 en Academlo</h1>

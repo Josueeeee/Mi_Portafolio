@@ -1,6 +1,4 @@
 body{
-    width: 100%;
-    height: 100%;
     margin: 0;
     background-color: #000116;
     font-family: 'Montserrat', sans-serif;
@@ -31,7 +29,6 @@ h1, h2{
 }
 .menu a{
     height: 100%;
-    border-bottom: 1px solid white;
     text-decoration: none;
     color: aliceblue;
     padding: 1rem;
@@ -127,7 +124,7 @@ h1, h2{
     overflow-x: scroll;
     width: auto;
     height: auto;
-    white-space: nowrap;
+    white-space: wrap;
     scrollbar-width: none;
    
 }
@@ -135,7 +132,7 @@ h1, h2{
     display: none;
 }
 .target{
-    width: 20rem;
+    min-width: 16rem;
     margin: 1rem;
     padding: 1rem;
     color: black;
@@ -176,6 +173,35 @@ h4{
 .round-large {
     border-radius: 16px;
 }
+.habilidades{
+    position: relative;
+}
+.porcentaje-progress{
+    position: absolute;
+    color: #35B0BF;
+}
+
+.porcentaje1{
+    top: 20%;
+  right: 40%;
+  z-index: 998;
+
+}
+.porcentaje2{
+    top: 40%;
+  right: 25%;
+  z-index: 998;
+}
+.porcentaje3{
+    top: 60%;
+  right: 10%;
+  z-index: 998;
+}
+.porcentaje4{
+    top: 80%;
+  right: 40%;
+  z-index: 998;
+}
 /* Mis Portafolios */
 .conteiner-portafolio{
     display: flex;
@@ -188,16 +214,43 @@ h4{
     scrollbar-width: none;
     padding: 2rem;
 }
+.conteiner-portafolio img:hover{
+    box-shadow: 0px 0px 30px #35B0BF;
+    
+}
 .conteiner-portafolio img{
     margin: 1rem;
+    width: 300px;
 }
 
 /* contacto */
 
+.target-c{
+    width: 11rem;
+    margin: 1rem;
+    padding: 2rem;
+    color: black;
+    height: 10rem;
+    border-radius: 0.2rem;
+}
+.target-c img{
+    width: 5rem;
+}
+
+.conteiner-email{
+    display: flex;
+    justify-content: right;
+}
+
+
 
 /* footer */
 footer{
+    
     text-align: center;
     background-color: #282B3C;
     padding: 2rem;
+}
+footer h1{
+    font-size: 1rem;
 }
